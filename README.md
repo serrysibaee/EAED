@@ -51,6 +51,7 @@ This Python script defines an `Evaluator` class designed to assess Arabic text b
 First you need to clone the repository
 ```git clone https://github.com/serrysibaee/EAED.git ```
 ```python
+from evaluator import Evaluator
 # Initialize evaluator with list of Q&A and API key
 evaluator = Evaluator(list_qna=my_data, api_key="your-api-key")
 
