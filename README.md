@@ -1,5 +1,5 @@
-### Summary
 # Evaluating Arabic Evaluation dataset (EAED Library)
+### Summary
 This Python script defines an `Evaluator` class designed to assess Arabic text based on multiple evaluation criteria, including linguistic standards, translation quality, cultural alignment, and methodology. The evaluation is performed by interacting with an external language model (e.g., Anthropic's Claude) through API calls. The class supports scoring the texts on each of these criteria and computes summary statistics (mean, median, standard deviation, etc.) for the collected scores. It can handle a dataset of questions and answers and can optionally evaluate the translation quality.
 
 ### Requirements
