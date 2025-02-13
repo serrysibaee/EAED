@@ -52,8 +52,16 @@ First you need to clone the repository
 ```git clone https://github.com/serrysibaee/EAED.git ```
 ```python
 from evaluator import Evaluator
+
+qa_list = [
+    "ما هو عاصمة المملكة العربية السعودية؟ العاصمة هي الرياض.",
+    "What is the capital of Egypt? ما هي عاصمة مصر؟ العاصمة هي القاهرة.",
+    "من هو مؤسس علم الجبر؟ مؤسس علم الجبر هو الخوارزمي.",
+
+]
+
 # Initialize evaluator with list of Q&A and API key
-evaluator = Evaluator(list_qna=my_data, api_key="your-api-key")
+evaluator = Evaluator(list_qna=qa_list, api_key="your-api-key")
 
 # Evaluate all texts in the dataset
 evaluator.evaluate_all(translating_eval=True)
