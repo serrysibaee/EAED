@@ -54,7 +54,7 @@ First you need to clone the repository
 from evaluator import Evaluator
 
 qa_list = [
-    "ما هو عاصمة المملكة العربية السعودية؟ العاصمة هي الرياض.",
+    "ما هي عاصمة المملكة العربية السعودية؟ العاصمة هي الرياض.",
     "What is the capital of Egypt? ما هي عاصمة مصر؟ العاصمة هي القاهرة.",
     "من هو مؤسس علم الجبر؟ مؤسس علم الجبر هو الخوارزمي.",
 
